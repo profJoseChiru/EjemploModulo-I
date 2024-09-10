@@ -23,6 +23,12 @@ namespace EjemploModuli1
             objForm1.Show();
         }
 
+        private void btn3_Click(object sender, EventArgs e)
+        {
+            FrmSuma objFrmSuma= new FrmSuma();
+            objFrmSuma.Show();
+        }
+
         private void btn2_Click(object sender, EventArgs e)
         {
             FrmConteo frmConteo = new FrmConteo();
