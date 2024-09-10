@@ -22,5 +22,11 @@ namespace EjemploModuli1
             Form1 objForm1 = new Form1();
             objForm1.Show();
         }
+
+        private void btn3_Click(object sender, EventArgs e)
+        {
+            FrmSuma objFrmSuma= new FrmSuma();
+            objFrmSuma.Show();
+        }
     }
 }
